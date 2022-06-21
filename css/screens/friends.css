@@ -10,15 +10,17 @@
 #friends-display-link i {
     color:rgba(0,0,0,0.3);
 }
+
 .friends-screen {
     padding: 0px var(--horizontal-space);
 }
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__friends {
     margin-top:25px;
     border-top: var(--border-style);
     padding-top:15px;
 }
-.friends-screen__channel-header {
+.friends-screen__friends-header {
     margin-bottom:30px;
     display: flex;
     justify-content: space-between;
